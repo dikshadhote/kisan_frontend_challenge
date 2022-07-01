@@ -28,3 +28,7 @@
 .aqua-text-dark {
   color: var(--aqua-dark);
 }
+
+.white-text {
+  color: var(--white);
+}
