@@ -1,0 +1,7 @@
+@import "./components/Article/Article.css";
+@import "./components/Footer/Footer.css";
+@import "./components/Header/Header.js";
+@import "./components/HorizontCard/HorizontCard.js";
+@import "./components/Navbar/Navbar.css";
+@import "./components/Sidebar/Sidebar.css";
+@import "./components/VerticalCard/VerticalCard.css";
