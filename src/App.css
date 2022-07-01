@@ -1,7 +1,8 @@
+@import "https://dreamui-v2.netlify.app/dreamui-v1.css";
 @import "./components/Article/Article.css";
 @import "./components/Footer/Footer.css";
-@import "./components/Header/Header.js";
-@import "./components/HorizontCard/HorizontCard.js";
+@import "./components/Header/Header.css";
+@import "./components/HorizontalCard/HorizontalCard.css";
 @import "./components/Navbar/Navbar.css";
 @import "./components/Sidebar/Sidebar.css";
 @import "./components/VerticalCard/VerticalCard.css";
