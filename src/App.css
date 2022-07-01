@@ -1,31 +1,7 @@
-@import "https://dreamui-v2.netlify.app/dreamui-v1.css";
 @import "./components/Article/Article.css";
 @import "./components/Footer/Footer.css";
-@import "./components/Header/Header.css";
-@import "./components/HorizontalCard/HorizontalCard.css";
+@import "./components/Header/Header.js";
+@import "./components/HorizontCard/HorizontCard.js";
 @import "./components/Navbar/Navbar.css";
 @import "./components/Sidebar/Sidebar.css";
 @import "./components/VerticalCard/VerticalCard.css";
-
-:root {
-  --black-bg: #28373e;
-  --aqua-dark: #29d7bf;
-  --aqua-border: #0a8e97;
-  --aqua-light: #1ed6ca;
-  --grey-dark: #5f333e;
-  --grey-light: #8198a0;
-  --orange-light: #eeac56;
-  --white: #fbf9e8;
-}
-
-.black-bg {
-  background-color: var(--black-bg);
-}
-
-.grey-text-color {
-  color: var(--grey-light);
-}
-
-.aqua-text-dark {
-  color: var(--aqua-dark);
-}
