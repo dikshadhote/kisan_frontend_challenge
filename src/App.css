@@ -15,5 +15,17 @@
   --grey-dark: #5f333e;
   --grey-light: #8198a0;
   --orange-light: #eeac56;
-  -white: #fbf9e8;
+  --white: #fbf9e8;
+}
+
+.black-bg {
+  background-color: var(--black-bg);
+}
+
+.grey-text-color {
+  color: var(--grey-light);
+}
+
+.aqua-text-dark {
+  color: var(--aqua-dark);
 }
