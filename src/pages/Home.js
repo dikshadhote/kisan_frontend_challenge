@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Article,
-  Footer,
-  Header,
-  HorizontalCard,
-  Navbar,
-  Sidebar,
-  VerticalCard,
-} from "../components";
+import { Footer, Navbar } from "../components";
 export default function Home() {
   return (
     <div>
