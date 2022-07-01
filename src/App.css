@@ -28,3 +28,7 @@
 .aqua-text-dark {
   color: var(--aqua-dark);
 }
+
+.grey-light-bg {
+  background-color: var(--grey-light);
+}
