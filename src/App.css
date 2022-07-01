@@ -1,12 +1,3 @@
-@import "https://dreamui-v2.netlify.app/dreamui-v1.css";
-@import "./components/Article/Article.css";
-@import "./components/Footer/Footer.css";
-@import "./components/Header/Header.css";
-@import "./components/HorizontalCard/HorizontalCard.css";
-@import "./components/Navbar/Navbar.css";
-@import "./components/Sidebar/Sidebar.css";
-@import "./components/VerticalCard/VerticalCard.css";
-
 :root {
   --black-bg: #28373e;
   --aqua-dark: #29d7bf;
