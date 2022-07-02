@@ -7,6 +7,7 @@ import {
   Article,
   HorizontalCard,
   VerticalCard,
+  Sidebar,
 } from "../components";
 import { useSide } from "../context/sidebar-context";
 export default function Home() {
@@ -24,7 +25,9 @@ export default function Home() {
           <Article />
           <HorizontalCard />
         </section>
-        <aside className="article"></aside>
+        <aside className="article">
+          <Sidebar />
+        </aside>
       </div>
       <VerticalCard />
 
