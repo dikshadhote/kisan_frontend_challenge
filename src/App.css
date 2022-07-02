@@ -45,6 +45,10 @@
   margin: 0 auto;
 }
 
+.pos-relative {
+  position: relative;
+}
+
 @media screen and (max-width: 1000px) {
   .content-container {
     width: calc(100vw - 10rem);

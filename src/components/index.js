@@ -5,6 +5,7 @@ import HorizontalCard from "./HorizontalCard/HorizontalCard";
 import Navbar from "./Navbar/Navbar";
 import Sidebar from "./Sidebar/Sidebar";
 import VerticalCard from "./VerticalCard/VerticalCard";
+import HambergerMenu from "./Navbar/HambergerMenu";
 
 export {
   Article,
@@ -14,4 +15,5 @@ export {
   Navbar,
   Sidebar,
   VerticalCard,
+  HambergerMenu,
 };

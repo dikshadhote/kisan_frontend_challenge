@@ -3,3 +3,31 @@
   top: 0;
   width: 100%;
 }
+
+.hamburger {
+  display: none;
+}
+.hamberger-menu {
+  display: none;
+}
+
+@media screen and (max-width: 845px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamberger-menu {
+    display: block;
+    height: 100vh;
+    z-index: 10;
+    top: 2.5rem;
+    position: fixed;
+  }
+}

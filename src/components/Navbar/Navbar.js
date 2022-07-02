@@ -1,11 +1,18 @@
 import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useSide } from "../../context/sidebar-context";
 
 export default function NavBar() {
+  const { toggleSidebar } = useSide();
   return (
     <nav className="black-bg navbar">
       <div className="d-flex flex-justify-space-between align-items-center content-container ">
+        <GiHamburgerMenu
+          className=" hamburger white-text"
+          onClick={() => toggleSidebar()}
+        />
         <h4 className="aqua-text-dark">OYODO</h4>
-        <ul className="list-style-none d-flex">
+        <ul className="list-style-none d-flex nav-menu">
           <li className="ml-3  grey-text-color font-weight-bold">HOME</li>
           <li className="ml-3  grey-text-color font-weight-bold">DAPIBUS</li>
           <li className="ml-3  grey-text-color font-weight-bold">ULTRICIES</li>
