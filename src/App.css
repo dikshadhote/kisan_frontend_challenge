@@ -39,3 +39,9 @@
 .orange-light-bg {
   background-color: var(--orange-light);
 }
+
+.content-container {
+  width: calc(100vw - 20rem);
+  margin: 0 auto;
+  border: 2px solid red;
+}
