@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, Navbar, Header, HambergerMenu } from "../components";
+import { Footer, Navbar, Header, HambergerMenu, Article } from "../components";
 import { useSide } from "../context/sidebar-context";
 export default function Home() {
   const { showSidebar } = useSide();
@@ -12,7 +12,9 @@ export default function Home() {
       </div>
       <Header />
       <div className="article-container  content-container">
-        <section className="article"></section>
+        <section>
+          <Article />
+        </section>
         <aside className="article"></aside>
       </div>
       <Footer />

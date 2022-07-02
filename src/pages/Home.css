@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: 7fr 3fr;
   grid-column-gap: 10px;
-  margin-top: 2rem;
 }
 
-.article {
-  height: 50px;
-  border: 2px solid red;
+@media screen and (max-width: 845px) {
+  .article-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
