@@ -14,7 +14,7 @@
   --grey-dark: #5f333e;
   --grey-light: #8198a0;
   --orange-light: #eeac56;
-  --white: #fbf9e8;
+  --white: #e9e7d8;
 }
 
 .black-bg {
@@ -34,4 +34,8 @@
 }
 .white-text {
   color: var(--white);
+}
+
+.orange-light-bg {
+  background-color: var(--orange-light);
 }
