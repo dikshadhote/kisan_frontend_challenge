@@ -1,0 +1,13 @@
+.col-3 {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-column-gap: 10px;
+}
+
+.card-img-hori .img-hori {
+  border-radius: 5px;
+}
+
+.card.hori-card {
+  border: 1px solid transparent;
+}
