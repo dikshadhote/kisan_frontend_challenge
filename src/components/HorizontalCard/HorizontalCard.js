@@ -5,7 +5,7 @@ export default function HorizontalCard() {
     <div>
       <div className="col-3">
         <div className="grey-border-bottom mb-3"></div>
-        <h3 className="black-text">More in this Series</h3>
+        <h3 className="black-text card-head-hor">More in this Series</h3>
         <div className="grey-border-bottom mb-3"></div>
       </div>
       <div className="card hori-card ">

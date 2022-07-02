@@ -6,6 +6,7 @@ import {
   HambergerMenu,
   Article,
   HorizontalCard,
+  VerticalCard,
 } from "../components";
 import { useSide } from "../context/sidebar-context";
 export default function Home() {
@@ -25,6 +26,8 @@ export default function Home() {
         </section>
         <aside className="article"></aside>
       </div>
+      <VerticalCard />
+
       <Footer />
     </div>
   );
