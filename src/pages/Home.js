@@ -5,13 +5,16 @@ export default function Home() {
   const { showSidebar } = useSide();
 
   return (
-    <div>
+    <div className="d-flex flex-column">
       <div className="pos-relative">
         <Navbar />
         {showSidebar ? <HambergerMenu /> : ""}
       </div>
-
       <Header />
+      <div className="article-container  content-container">
+        <section className="article"></section>
+        <aside className="article"></aside>
+      </div>
       <Footer />
     </div>
   );

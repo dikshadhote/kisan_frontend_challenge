@@ -6,6 +6,7 @@
 @import "./components/Navbar/Navbar.css";
 @import "./components/Sidebar/Sidebar.css";
 @import "./components/VerticalCard/VerticalCard.css";
+@import "./pages/Home.css";
 :root {
   --black-bg: #28373e;
   --aqua-dark: #29d7bf;
