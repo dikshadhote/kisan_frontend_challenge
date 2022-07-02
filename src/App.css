@@ -12,7 +12,7 @@
   --aqua-dark: #29d7bf;
   --aqua-border: #0a8e97;
   --aqua-light: #1ed6ca;
-  --grey-dark: #5f333e;
+  --grey-dark: #757f83;
   --grey-light: #8198a0;
   --orange-light: #eeac56;
   --white: #e9e7d8;
@@ -20,6 +20,9 @@
 
 .black-bg {
   background-color: var(--black-bg);
+}
+.black-text {
+  color: var(--black-bg);
 }
 
 .grey-text-color {
@@ -32,6 +35,9 @@
 
 .grey-light-bg {
   background-color: var(--grey-light);
+}
+.grey-text {
+  color: var(--grey-dark);
 }
 .white-text {
   color: var(--white);
@@ -50,6 +56,9 @@
   position: relative;
 }
 
+.italic {
+  font-style: italic;
+}
 @media screen and (max-width: 1000px) {
   .content-container {
     width: calc(100vw - 10rem);
