@@ -55,7 +55,11 @@ export default function VerticalCard() {
         {products.map((product) => {
           return (
             <div class="card flex-column card-vert grey-border">
-              <img src={product.productImg} class="card-img-vert" />
+              <img
+                src={product.productImg}
+                class="card-img-vert"
+                img="product image"
+              />
               <div class="card-body">
                 <h4 className=" aqua-text-dark pl-1">{product.title}</h4>
                 <p className="pl-1  pb-2">{product.description}</p>

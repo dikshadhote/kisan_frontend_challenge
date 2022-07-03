@@ -9,6 +9,7 @@ export default function Location() {
       <img
         src="https://img.freepik.com/free-photo/aerial-view-landscape-city-with-lot-highways-buildings-transportation_181624-10273.jpg?size=626&ext=jpg&ga=GA1.2.788027645.1656830851"
         className="img-map"
+        alt="office location"
       />
       <div className="m-2">
         <p className="mb-xm">ONE MIDTOWN</p>

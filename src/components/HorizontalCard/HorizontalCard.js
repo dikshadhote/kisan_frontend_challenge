@@ -14,6 +14,7 @@ export default function HorizontalCard() {
             <img
               className="responsive-img img-hori"
               src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129803.jpg?w=740"
+              alt="sofa set image"
             />
           </div>
           <div className="card-body flex-column">
@@ -31,6 +32,7 @@ export default function HorizontalCard() {
             <img
               className="responsive-img img-hori"
               src="https://media.istockphoto.com/photos/kitchen-utensil-picture-id476392316?k=20&m=476392316&s=612x612&w=0&h=ZRITFwJHbJ1rzJYepXzLcgV3VjpZ5Kp5kbRR28sWqEo="
+              alt="Utensils image"
             />
           </div>
           <div className="card-body flex-column">
