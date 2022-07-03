@@ -7,7 +7,7 @@ export default function MessageForm() {
         <h6>Send me a message</h6>
       </div>
       <form className="d-flex flex-column m-2 msg-form">
-        <label htmlFor="input-subject" className=" grey-text inp-label">
+        <label htmlFor="input-subject" className=" grey-text mb-xm">
           Subject
         </label>
         <input
@@ -15,7 +15,7 @@ export default function MessageForm() {
           className="transparent-border mb-3 curver-border-sm"
         ></input>
 
-        <label htmlFor="input-message" className=" grey-text inp-label">
+        <label htmlFor="input-message" className=" grey-text mb-xm">
           Message
         </label>
         <textarea

@@ -1,20 +1,16 @@
-.user-details {
-  height: 10rem;
-}
-
 .user-img {
   height: 7rem;
-}
-
-.message-form-container {
-  height: 25rem;
 }
 
 .curver-border {
   border-radius: 5px;
 }
-.inp-label {
+.mb-xm {
   margin-bottom: 3px;
+}
+
+.img-map {
+  height: 9rem;
 }
 
 .curver-border-sm {
