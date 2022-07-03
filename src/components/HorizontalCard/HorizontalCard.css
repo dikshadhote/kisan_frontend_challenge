@@ -21,6 +21,24 @@
   }
 }
 
+@media screen and (max-width: 810px) {
+  .card.hori-card {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 21rem;
+  }
+
+  .card-img-hori {
+    width: 100%;
+  }
+
+  .horiz-card-continer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1290px) {
   /* .title-card {
     font-size: 1.3rem;

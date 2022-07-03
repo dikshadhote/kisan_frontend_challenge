@@ -25,6 +25,14 @@
     display: block;
     font-size: 2rem;
   }
+
+  .hamberger-menu {
+    display: block;
+    height: 100vh;
+    z-index: 10;
+    top: 2.5rem;
+    position: fixed;
+  }
 }
 
 @media screen and (max-width: 768px) {
