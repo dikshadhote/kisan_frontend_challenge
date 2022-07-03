@@ -1,5 +1,6 @@
 .user-img {
-  height: 7rem;
+  height: 8rem;
+  width: 100%;
 }
 
 .curver-border {
@@ -19,4 +20,10 @@
 
 .text-area {
   padding: 3rem;
+}
+
+.img-badge {
+  position: absolute;
+  left: 40%;
+  bottom: -15%;
 }
