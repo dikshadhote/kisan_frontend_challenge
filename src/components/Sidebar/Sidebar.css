@@ -1,0 +1,35 @@
+.user-img {
+  height: 8rem;
+  width: 100%;
+}
+
+.curver-border {
+  border-radius: 5px;
+}
+.mb-xm {
+  margin-bottom: 3px;
+}
+
+.img-map {
+  height: 9rem;
+}
+
+.curver-border-sm {
+  border-radius: 3px;
+}
+
+.text-area {
+  padding: 3rem;
+}
+
+.img-badge {
+  position: absolute;
+  left: 40%;
+  bottom: -15%;
+}
+
+@media screen and (max-width: 690px) {
+  .submenu {
+    margin-top: 2rem;
+  }
+}

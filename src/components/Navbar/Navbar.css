@@ -2,4 +2,45 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 12;
+}
+
+.hamburger {
+  display: none;
+}
+.hamberger-menu {
+  display: none;
+}
+
+.aqua-border-bottom {
+  border-bottom: 3px solid var(--aqua-dark);
+}
+
+@media screen and (max-width: 845px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .hamberger-menu {
+    display: block;
+    height: 100vh;
+    z-index: 10;
+    top: 2.5rem;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hamberger-menu {
+    display: block;
+    height: 100vh;
+    z-index: 10;
+    top: 2.5rem;
+    position: fixed;
+  }
 }

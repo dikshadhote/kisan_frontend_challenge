@@ -1,0 +1,15 @@
+.col-3-eq {
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-column-gap: 10px;
+}
+
+.grey-border {
+  border: 1px solid var(--grey-light-bg);
+}
+
+@media screen and (max-width: 1290px) {
+  .vert-card-container {
+    justify-content: center;
+  }
+}

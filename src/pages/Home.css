@@ -1,0 +1,12 @@
+.article-container {
+  display: grid;
+  grid-template-columns: 7.5fr 2.5fr;
+  grid-column-gap: 10px;
+}
+
+@media screen and (max-width: 1290px) {
+  .article-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
