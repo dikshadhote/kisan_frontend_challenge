@@ -39,11 +39,8 @@
   }
 }
 
-@media screen and (max-width: 1290px) {
-  /* .title-card {
-    font-size: 1.3rem;
+@media screen and (max-width: 700px) {
+  .card-head-hor {
+    font-size: 1.4rem;
   }
-  .text-card {
-    font-size: 0.8rem;
-  } */
 }
