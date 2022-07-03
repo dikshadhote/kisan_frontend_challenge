@@ -13,11 +13,19 @@ export default function NavBar() {
         />
         <h4 className="aqua-text-dark">OYODO</h4>
         <ul className="list-style-none d-flex nav-menu">
-          <li className="ml-3  grey-text-color font-weight-bold">HOME</li>
-          <li className="ml-3  grey-text-color font-weight-bold">DAPIBUS</li>
-          <li className="ml-3  grey-text-color font-weight-bold">ULTRICIES</li>
-          <li className="ml-3  grey-text-color font-weight-bold">BIBENDUM</li>
-          <li className="ml-3  grey-text-color font-weight-bold">MAGNA</li>
+          <li className="ml-3 black-dark-bg white-text-color p-2 aqua-border-bottom font-weight-bold">
+            HOME
+          </li>
+          <li className="ml-3 p-2  grey-text-color font-weight-bold">
+            DAPIBUS
+          </li>
+          <li className="ml-3 p-2  grey-text-color font-weight-bold">
+            ULTRICIES
+          </li>
+          <li className="ml-3 p-2  grey-text-color font-weight-bold">
+            BIBENDUM
+          </li>
+          <li className="ml-3 p-2  grey-text-color font-weight-bold">MAGNA</li>
         </ul>
       </div>
     </nav>

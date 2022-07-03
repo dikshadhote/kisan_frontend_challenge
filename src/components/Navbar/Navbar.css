@@ -12,6 +12,10 @@
   display: none;
 }
 
+.aqua-border-bottom {
+  border-bottom: 3px solid var(--aqua-dark);
+}
+
 @media screen and (max-width: 845px) {
   .nav-menu {
     display: none;
