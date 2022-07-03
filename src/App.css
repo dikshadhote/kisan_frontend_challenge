@@ -13,8 +13,9 @@
   --aqua-border: #0a8e97;
   --aqua-light: #1ed6ca;
   --grey-dark: #757f83;
-  --grey-light: #8198a0;
+  --grey-light: #e9e7e8;
   --grey-light-bg: #ccdadf;
+  --grey-prof-dark: #d7d3d2;
   --orange-light: #eeac56;
   --white: #e9e7d8;
 }
@@ -61,12 +62,18 @@
   position: relative;
 }
 
+.grey-prof-bg {
+  background-color: var(--grey-prof-dark);
+}
 .italic {
   font-style: italic;
 }
 
 .grey-border-bottom {
   border-bottom: 3px solid var(--grey-light-bg);
+}
+.transparent-border {
+  border: 1px solid transparent;
 }
 
 @media screen and (max-width: 1000px) {
