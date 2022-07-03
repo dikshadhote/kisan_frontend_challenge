@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SubMenu() {
   return (
-    <div className="d-flex flex-column grey-border curver-border">
+    <div className="d-flex flex-column grey-border curver-border submenu">
       <div className="d-flex flex-justify-center">
         <h6>Submenu</h6>
       </div>
