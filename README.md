@@ -1,10 +1,10 @@
 # Kisan Frontend Coding challenge
-live link : https://kisan-oyodo.netlify.app/
-repository link : https://github.com/dikshadhote/kisan_frontend_challenge
+-live link : https://kisan-oyodo.netlify.app/
+-repository link : https://github.com/dikshadhote/kisan_frontend_challenge
 
 # TechStack Used
 - React
-- Styled using Vanilla CSS, DreamUI [https://dreamui-v2.netlify.app/] (Own Component library)
+- Styled using Vanilla CSS, [DreamUI](https://dreamui-v2.netlify.app/) (Own Component library)
 - This App is responsive 
 
 
