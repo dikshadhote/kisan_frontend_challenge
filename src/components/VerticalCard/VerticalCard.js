@@ -58,7 +58,7 @@ export default function VerticalCard() {
               <img
                 src={product.productImg}
                 class="card-img-vert"
-                img="product"
+                alt="product"
               />
               <div class="card-body">
                 <h4 className=" aqua-text-dark pl-1">{product.title}</h4>
