@@ -7,7 +7,7 @@ export default function UserProfile() {
         <img
           className="user-img"
           src="https://img.freepik.com/free-photo/skyscraper-path-speedway-building-bund-pearl_1417-883.jpg?size=626&ext=jpg&ga=GA1.2.788027645.1656830851"
-          alt="banner image"
+          alt="banner"
         />
         <img
           src="https://www.w3schools.com/w3images/avatar6.png"
