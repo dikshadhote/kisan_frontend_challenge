@@ -16,16 +16,16 @@ export default function HorizontalCard() {
           />
         </div>
         <div className="card-body flex-column">
-          <h4 className=" aqua-text-dark pl-1">
+          <h4 className=" aqua-text-dark pl-1 title-card">
             Porta Parturient Fermentum Euismod
           </h4>
-          <p className="pl-1">
+          <p className="pl-1 text-card">
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
             fugit, sed quia consequuntur magni dolores eos qui
           </p>
         </div>
       </div>
-      <div className="card hori-card ">
+      <div className="card hori-card  mt-2">
         <div className="card-img-hori ">
           <img
             className="responsive-img img-hori"

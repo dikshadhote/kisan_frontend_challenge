@@ -4,7 +4,7 @@
   grid-column-gap: 10px;
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 1290px) {
   .article-container {
     display: flex;
     flex-direction: column;

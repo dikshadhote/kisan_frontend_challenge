@@ -12,8 +12,20 @@
   border: 1px solid transparent;
 }
 
+.card-img-hori {
+  height: 100%;
+}
 @media screen and (max-width: 1338px) {
   .card-head-hor {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
+}
+
+@media screen and (max-width: 1290px) {
+  /* .title-card {
+    font-size: 1.3rem;
+  }
+  .text-card {
+    font-size: 0.8rem;
+  } */
 }
